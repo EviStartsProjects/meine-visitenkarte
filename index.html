@@ -113,9 +113,15 @@
     <section class="card">
       <h2>Kontakt</h2>
       <ul class="tag-list">
-        <li><a href="mailto:e.amiridou@gmail.com">e.amiridou@gmail.com</a></li>
         <li><a href="https://www.linkedin.com/in/evgenia-amiridou-a8452a298/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
       </ul>
+
+      <form class="contact-form" action="https://formspree.io/f/xjybgvdj" method="POST">
+        <input class="form-field" type="text" name="name" placeholder="Dein Name" required />
+        <input class="form-field" type="email" name="email" placeholder="Deine E-Mail" required />
+        <textarea class="form-field" name="message" placeholder="Deine Nachricht" required></textarea>
+        <button class="form-submit" type="submit">Nachricht senden</button>
+      </form>
     </section>
 
   </main>
